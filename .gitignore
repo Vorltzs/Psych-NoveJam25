@@ -24,3 +24,7 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# Google Drive temporary sync files
+.tmp.driveupload/
+.tmp.drivedownload/
