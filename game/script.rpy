@@ -1,33 +1,70 @@
-﻿# The script of the game goes in this file.
+﻿label start:
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+    "START OF THE WEEK"
 
-define e = Character("Eileen")
+    jump monday
 
 
-# The game starts here.
 
-label start:
+label monday:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    "MONDAY"
+    
+    # Home
+    # MC walks to school and sees buildings in the distance burning. This is a foreshadowing to the final event.
+    # Morning
+    # Art sub announcement, salah satu lineup lomba classmeet akhir tahun
+    # MC gk tertarik
+    # Class
+    # People talk about the classmeet, and there’s mention of art sub significance
+    # Afternoon (ws kelas)
+    # The girl notices the MC’s talent for art.
+    # When the girl approached and interacted with the MC, MC had a slight headache.
+    # The MC wants to see how it will go tomorrow…
+    # Home
+    # When he sleeps, he dreams about the meeting himself which warns him about the upcoming exhibition. He told him about three things,
+    # Get close to the girl
+    # Avoid fire at all cost
+    # Payback what the “bully” had done to you
 
-    scene bg room
+    jump tuesday
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
 
-    show eileen happy
+label tuesday:
 
-    # These display lines of dialogue.
+    "TUESDAY"
 
-    e "You've created a new Ren'Py game."
+    jump wednesday
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
 
-    # This ends the game.
+label wednesday:
+
+    "WEDNESDAY"
+
+    jump thursday
+
+label thursday:
+
+    "THURSDAY"
+
+    jump friday
+
+label friday:
+
+    "FRIDAY"
+
+    jump saturday
+
+label saturday:
+
+    "SATURDAY"
+
+    jump sunday
+
+label sunday:
+
+    "SUNDAY"
+
+    "END OF THE WEEK"
 
     return
