@@ -1,4 +1,9 @@
-﻿label start:
+﻿define MC = Character('MC')
+define HT = Character('Homeroom Teacher', color="#c8ffc8")
+define G = Character('Girl', color="#ffc8c8")
+define B = Character('Bully', color="#c8c8ff")
+
+label start:
 
     "START OF THE WEEK"
 
@@ -11,20 +16,68 @@ label monday:
     "MONDAY"
     
     "Home" "MC walks to school and sees buildings in the distance burning. This is a foreshadowing to the final event."
+
+    MC "Gosh, what time is it, I’m gonna be late to school"
+    MC "Wait, what’s that over there?"
+    MC "Smoke…?"
+    "Sees the smoke of a burning building in the distance"
     
     "Morning" "Art sub announcement, salah satu lineup lomba classmeet akhir tahun"
     "Morning" "MC gk tertarik"
-    
+
+    "_School bell rings_"
+
+    HT "Alright class, settle down. As you all know, the classmeet is coming up soon."
+    HT "Among the various competitions, we've got a new one this year, the art exhibition."
+    HT "Any students are open to submit their artworks for the exhibition."
+    HT "You have until Friday midday to submit your pieces."
+    HT "That's all for now, back to your studies."
+
+    MC "Hmm, art exhibition huh? Not really my thing."
+
     "Class" "People talk about the classmeet, and there’s mention of art sub significance"
+
+    "_Class murmur, excitement about the art exhibition_"
     
     "Afternoon" "The girl notices the MC’s talent for art."
     "Afternoon" "When the girl approached and interacted with the MC, MC had a slight headache."
     "Afternoon" "The MC wants to see how it will go tomorrow…"
+
+    "Idk how tf I should implement the girl noticing the MC's talent for art lol"
+
+    G "Hey, I saw your sketches in class. You have a real talent for art."
+    G "Would you like to collaborate with me for the art exhibition this week?"
+    MC "Uh, I’m not sure. I don’t usually do art stuff."
+    "_MC's vision got blurry for a sec_"
+    MC "Whoa, I feel a bit dizzy all of a sudden."
+    G "Are you okay? You look a bit pale."
+    MC "Yeah, I think I just need some rest. I’ll think about your offer."
     
+    "_School bells rings, signaling the end of the day._"
+
     "Home" "When he sleeps, he dreams about the meeting himself which warns him about the upcoming exhibition. He told him about three things,"
     "Home" "Get close to the girl"
     "Home" "Avoid fire at all cost"
     "Home" "Payback what the “bully” had done to you"
+
+    MC "Art exhibition, huh?"
+    MC "What a hassle, I don't want anyone to bother me with that."
+    MC "I think I'll just sleep."
+
+    "_Sleeping..._"
+
+    "?" "..."
+    "?" "..h.."
+    "?" "HEY!"
+
+    MC "Whoa! Who are you!?"
+    
+    "?" "Listen to me carefully. This week is crucial for you."
+    "?" "You need to get close to that girl who asked you about the art exhibition."
+    "?" "She will be important for your future."
+    "?" "Also, avoid fire at all costs. It will bring you great harm."
+    "?" "And finally, you need to get back at that bully who has been giving you a hard time."
+    "?" "Trust me, your life depends on it."
 
     jump tuesday
 
